@@ -1,61 +1,59 @@
-### membuat sebuah folder kosong dengan nama dini
+membuat sebuah folder kosong dengan nama dini
  
-mkdir dini
+### mkdir dini
 
-### berpindah ke directory dini 
+berpindah ke directory dini 
 
-cd dini
+### cd dini
 
-### membuat folder sekolah
+membuat folder sekolah
 
-mkdir sekolah
+### mkdir sekolah
 
-### membuat folder kerja
+membuat folder kerja
 
-mkdir kerja
+### mkdir kerja
 
-### masuk ke dalam folder sekolah
+masuk ke dalam folder sekolah
 
-cd sekolah
+### cd sekolah
 
-### membuat file dengan nama ijazah.txt
+membuat file dengan nama ijazah.txt
 
-touch ijazah.txt
+### touch ijazah.txt
 
+tampilkan isi dari file ijazah.txt menggunakan CLI command
 
-### tampilkan isi dari file ijazah.txt menggunakan CLI command
+### nano ijazah.txt
 
-nano ijazah.txt
+kemudian membuat 1 file lagi dengan nama portfolio.txt
 
-### kemudian membuat 1 file lagi dengan nama portfolio.txt
+### touch portfolio.txt
 
-touch portfolio.txt
+mengedit isi file portfolio.txt
 
-### mengedit isi file portfolio.txt
+### nano portfoloi.txt
 
-nano portfoloi.txt
+keluar dari folder sekolah
 
-### keluar dari folder sekolah
+### cd ..
 
-cd ..
+masuk kedalam folder kerja
 
-### masuk kedalam folder kerja
+### cd kerja
 
-cd kerja
+membuat file dengan nama cv.txt
 
-### membuat file dengan nama cv.txt
+### touch cv.txt
 
-touch cv.txt
+tampilkan isi dari file tersebut menggunakan CLI command
 
+### nano cv.txt
 
-### tampilkan isi dari file tersebut menggunakan CLI command
+keluar dari folder kerja
 
-nano cv.txt
+### cd ..
 
-### keluar dari folder kerja
+memindah file portfolio.txt yang awalnya di folder sekolah ke dalam folder kerja
 
-cd ..
-
-### memindah file portfolio.txt yang awalnya di folder sekolah ke dalam folder kerja
-
-mv sekolah/portfolio.txt kerja/
+### mv sekolah/portfolio.txt kerja/
