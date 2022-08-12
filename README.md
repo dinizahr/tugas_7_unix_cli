@@ -1,5 +1,5 @@
 membuat sebuah folder kosong dengan nama dini
-### mkdir dini
+### mkdir dini  
 
 berpindah ke directory dini 
 
